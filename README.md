@@ -2,6 +2,9 @@
 
 This is a GROWI scirpt plugin to generate chart/graph by [QuickChart](https://quickchart.io/).
 
+![image](https://github.com/goofmint/growi-plugin-quickchart/assets/5709/c8657985-6757-41d8-96e8-fae357c1f95c)
+
+
 ## Usage
 
 If you want to show the chart/graph on the page, using `quickchart` on code block.
