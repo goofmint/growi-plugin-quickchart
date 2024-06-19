@@ -1,0 +1,23 @@
+{
+  "files.eol": "\n",
+
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+
+  // use vscode-stylelint
+  // see https://github.com/stylelint/vscode-stylelint
+  "stylelint.validate": ["css", "less", "scss"],
+  "stylelint.ignoreDisables": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.markdownlint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
+}
