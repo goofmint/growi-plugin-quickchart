@@ -15,7 +15,7 @@ export const QuickChart = (Tag: React.FunctionComponent<any>): React.FunctionCom
       ['url', 'width', 'height'].forEach(key => delete json[key]);
       return (
         <img
-          src={`${url || URL}?c=${JSON.stringify(json)}`}
+          src={`${url || URL}?c=${encodeURIComponent(JSON.stringify(json))}`}
           width={width || WIDTH}
           height={height || HEIGHT}
         />
