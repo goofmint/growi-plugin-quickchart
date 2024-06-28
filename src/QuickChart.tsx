@@ -1,3 +1,5 @@
+import React from 'react';
+
 const URL = 'https://quickchart.io/chart';
 const WIDTH = '100%';
 const HEIGHT = 'auto';
